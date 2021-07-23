@@ -163,16 +163,7 @@ function updateStatus() {
       //   console.log(controller.axes.length);
       //   a.setAttribute("value", 1);
 
-        console.log(controller.axes[0]);
-        console.log(controller.axes[1]);
-        console.log(controller.axes[2]);
-        console.log(controller.axes[3]);
-        console.log(controller.axes[4]);
-        console.log(controller.axes[5]);
-        console.log(controller.axes[6]);
-        console.log(controller.axes[7]);
-        console.log(controller.axes[8]);
-        console.log(controller.axes[9]);
+       
         
 
 
@@ -244,9 +235,21 @@ function scangamepads() {
 }
 
 if (haveEvents) {
+  if(!!navigator.getGamepads){
+    console.log("SUPPPORTE");
+  } 
+  else{
+    console.log("NON SUPPORTE");
+  }
   window.addEventListener("gamepadconnected", connecthandler);
   window.addEventListener("gamepaddisconnected", disconnecthandler);
 } else if (haveWebkitEvents) {
+  if(!!navigator.getGamepads){
+    console.log("SUPPORTE");
+  } 
+  else{
+    console.log("NON SUPPORTE");
+  }
   window.addEventListener("webkitgamepadconnected", connecthandler);
   window.addEventListener("webkitgamepaddisconnected", disconnecthandler);
 } else {
