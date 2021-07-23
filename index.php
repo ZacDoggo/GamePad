@@ -159,11 +159,12 @@ function updateStatus() {
       var a = axes[i];
       
       a.innerHTML = i + ": " + controller.axes[i].toFixed(4);
-      a.setAttribute("value", controller.axes[i]/512);
+      a.setAttribute("value", controller.axes[i]);
       //   console.log(controller.axes.length);
       //   a.setAttribute("value", 1);
 
-
+        console.log(controller.axes[5]);
+        console.log(controller.axes[6]);
 
 
       if(controller.axes[5] > 0.50){
