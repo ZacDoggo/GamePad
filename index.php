@@ -235,21 +235,11 @@ function scangamepads() {
 }
 
 if (haveEvents) {
-  if(!!navigator.getGamepads){
-    console.log("SUPPPORTE");
-  } 
-  else{
-    console.log("NON SUPPORTE");
-  }
+  
   window.addEventListener("gamepadconnected", connecthandler);
   window.addEventListener("gamepaddisconnected", disconnecthandler);
 } else if (haveWebkitEvents) {
-  if(!!navigator.getGamepads){
-    console.log("SUPPORTE");
-  } 
-  else{
-    console.log("NON SUPPORTE");
-  }
+  
   window.addEventListener("webkitgamepadconnected", connecthandler);
   window.addEventListener("webkitgamepaddisconnected", disconnecthandler);
 } else {
