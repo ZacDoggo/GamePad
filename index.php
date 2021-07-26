@@ -103,7 +103,7 @@ function addgamepad(gamepad) {
     //e.id = "a" + i;
     e.setAttribute("min", "-1");
     e.setAttribute("max", "1");
-    e.setAttribute("value", "0.5");
+    e.setAttribute("value", "1");
     e.innerHTML = i;
     a.appendChild(e);
   }
