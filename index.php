@@ -165,10 +165,10 @@ function updateStatus() {
 
       console.log(controller.axes[0]);
       console.log(controller.axes[1]);
-      console.log(controller.axes[2]);
-      console.log(controller.axes[3]);
-      console.log(controller.axes[4]);
-      console.log(controller.axes[5]);
+      // console.log(controller.axes[2]);
+      // console.log(controller.axes[3]);
+      // console.log(controller.axes[4]);
+      // console.log(controller.axes[5]);
         
 
 
