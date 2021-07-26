@@ -159,7 +159,7 @@ function updateStatus() {
       var a = axes[i];
       
       a.innerHTML = i + ": " + controller.axes[i].toFixed(4);
-      var value = controller.axes[i] + 0.5;
+      var value = controller.axes[i] + 1;
       a.setAttribute("value", value);
       
       // console.log(controller.axes.length);
