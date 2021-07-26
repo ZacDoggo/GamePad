@@ -103,7 +103,7 @@ function addgamepad(gamepad) {
     //e.id = "a" + i;
     e.setAttribute("min", "-1");
     e.setAttribute("max", "1");
-    e.setAttribute("value", "1");
+    e.setAttribute("value", "0");
     e.innerHTML = i;
     a.appendChild(e);
   }
@@ -162,7 +162,7 @@ function updateStatus() {
       a.setAttribute("value", controller.axes[i]);
       
       // console.log(controller.axes.length);
-      // a.setAttribute("value", 1);
+      a.setAttribute("value", 1);
 
   
         
