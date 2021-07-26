@@ -101,8 +101,8 @@ function addgamepad(gamepad) {
     e = document.createElement("meter");
     e.className = "axis";
     //e.id = "a" + i;
-    e.setAttribute("min", "-1");
-    e.setAttribute("max", "1");
+    e.setAttribute("min", "-2");
+    e.setAttribute("max", "2");
     e.setAttribute("value", "0");
     e.innerHTML = i;
     a.appendChild(e);
