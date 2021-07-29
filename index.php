@@ -18,7 +18,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
-      cursor: not-allowed !important;
+      cursor: none;
     }
 
     .axes {
@@ -28,6 +28,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
 
     .buttons {
@@ -37,6 +38,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
 
     /*meter*/.axis {
@@ -47,6 +49,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
 
     .button {
@@ -65,6 +68,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
 
     .pressed {
@@ -74,6 +78,7 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
 
     .touched::after {
@@ -89,7 +94,10 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
+      cursor: none;
     }
+
+    
     </style>
     </head>
     <div class="disable-select">
