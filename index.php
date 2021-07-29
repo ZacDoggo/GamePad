@@ -11,25 +11,34 @@
     
     <style>
 
-    .disable-select {
-        user-select: none; /* supported by Chrome and Opera */
+
+
+    .axes {
+    padding: 1em;
+    user-select: none; /* supported by Chrome and Opera */
       -webkit-user-select: none; /* Safari */
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
     }
 
-    .axes {
-    padding: 1em;
-    }
-
     .buttons {
     margin-left: 1em;
+    user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
     }
 
     /*meter*/.axis {
     min-width: 200px;
     margin: 1em;
+    user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
     }
 
     .button {
@@ -43,10 +52,20 @@
     background-size: 0% 0%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
     }
 
     .pressed {
     border: 1px solid red;
+    user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
     }
 
     .touched::after {
@@ -57,6 +76,11 @@
     margin-left: -0.5em;
     font-size: 0.8em;
     opacity: 0.7;
+    user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
     }
     </style>
     </head>
