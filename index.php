@@ -10,6 +10,15 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
     <style>
+
+    .disable-select {
+        user-select: none; /* supported by Chrome and Opera */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+    }
+
     .axes {
     padding: 1em;
     }
@@ -51,12 +60,13 @@
     }
     </style>
     </head>
+    <div class="disable-select">
     <body>
       <h2 id="start">Press a button on your controller to start</h2>
 
 
       <div id="x"></div>
-
+      
       <script>
 
 /*
@@ -66,6 +76,7 @@
  *
  * You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
  */
+
 var oldetat;
 var etat = "Static";
 var init = 0;
@@ -248,5 +259,6 @@ if (haveEvents) {
   setInterval(scangamepads, 500);
 }
     </script>
+    </div>
       </body>
     </html>
